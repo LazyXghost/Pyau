@@ -12,4 +12,6 @@
 VALUES ('$QR_code','$location','$waterquality','$distance');";
 	mysqli_query($conn, $sql);
 
-    header("Location: ../database.insert.php?submit=success");
+    header("Location: index.php?submit=success");
+
+?>

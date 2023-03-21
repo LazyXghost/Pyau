@@ -12,4 +12,5 @@
 VALUES ('$name','$email','$subject','$message');";
 	mysqli_query($conn, $sql);
 
-    header("Location: ../main.php?submit=success");
+    header("Location: index.php?submit=success");
+?>

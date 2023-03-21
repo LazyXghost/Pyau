@@ -1,4 +1,6 @@
-</html>
+<!-- <?php
+var_dump(php_ini_loaded_file(), php_ini_scanned_files());
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -68,7 +70,7 @@
                     <div class="text-3">
                         <span class="typing"></span>
                     </div>
-                    <a href="#">Pyau Near Me</a>
+                    <a href="database.display.php">Pyau Near Me</a>
                     <div id="google_translate_element"></div>
                 </div>
                 <div class="column-right">
@@ -101,8 +103,7 @@
                         various other means. It will work as a bridge between government’s efforts and peoples need . It
                         will save both time and money .It will change life of many and our motive of SWACHH JAL- HAR PAL
                         will prove to be a boon for many families </p>
-                    <a href="#">Add Location</a>
-
+                        <a href="database.insert.php">Add Location</a>
                 </div>
             </div>
         </div>
@@ -256,17 +257,17 @@
                     <form action="contact.php" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="name" required>
+                                <input type="text" placeholder="name" name="name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="email" required>
+                                <input type="email" placeholder="email" name="email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="subject" required>
+                            <input type="text" placeholder="subject" name="subject" required>
                         </div>
                         <div class="field textarea">
-                            <input cols="30" rows="10" placeholder="message" required></changeit>
+                            <input cols="30" rows="10" placeholder="message" name="message" required></changeit>
                         </div>
                         <div class="button">
                             <button type="submit">Send message</button>

@@ -5,7 +5,7 @@
 	<title></title>
 </head>
 <body>
-	<form action="includes/submit.inc.php" method="POST" >
+	<form action="submit.inc.php" method="POST" >
 		<input type="text" name="QR_code" placeholder="QR CODE">
 		<br>
 		<input type="text" name="location" placeholder="Location">
